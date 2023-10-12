@@ -12,6 +12,10 @@ int main()
       cin>>arr[i];
       count+=arr[i];
     }
+  for(int i = 0 ; i < size;i++)
+    {
+      cout<<arr[i]<<" ";
+    }
   cout<<"Average of given no is = "<<count/size;
   return 0;
 }
